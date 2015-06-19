@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <link rel="icon" href="img/favicon.ico">
+		<title> D'Lu | Colombian Artcraft </title>
+
+        <!--  JQuery  -->
+		<script type="text/javascript" src="js/libs/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/libs/bootstrap.js"></script>
+        <!--  Bootstrap & CSS  -->
+		<link rel="stylesheet" type="text/css" href="css/libs/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/libs/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--  Ember.js  -->
+		<script type="text/javascript" src="js/libs/ember-handlebars-loader-0.0.2.js"></script>
+		<script type="text/javascript" src="js/libs/ember.js"></script>
+		<script type="text/javascript" src="js/libs/ember-data.js"></script>
+		<script type="text/javascript" src="js/libs/ember-template-compiler.js"></script>
+		<script type="text/javascript" src="js/libs/localstorage_adapter.js"></script>
+        <!--  Javascript Files  -->
+	    <script type="text/javascript" src="js/backup.js"></script>
+	    <script type="text/javascript" src="js/form.js"></script>
+		<script type="text/javascript" src="js/d-lu.js"></script>
+		<script type="text/javascript" src="js/router.js"></script>
+        <!--  Controllers -->
+        <!--  Controllers for  Main Pages -->
+		<script type="text/javascript" src="controllers/about.js"></script>
+		<script type="text/javascript" src="controllers/contact.js"></script>
+		<script type="text/javascript" src="controllers/home.js"></script>
+        <!-- <script type="text/javascript" src="controllers/interface.js"></script>   -->
+        <!--  Controllers for Other Pages  -->
+		<script type="text/javascript" src="controllers/adresses.js"></script>
+		<script type="text/javascript" src="controllers/application.js"></script>
+		<script type="text/javascript" src="controllers/send_message.js"></script>
+        
+		<!--  /Controllers -->
+        <!--  Routes  -->
+		<script type="text/javascript" src="routes/home.js"></script>
+        <!--  /Routes  -->
+        <!--  Models  -->
+        <!--  /Models  -->
+
+
+	</head>
+	<body class="container-fluid mainbg_stl">
+
+	  <script> 
+	     EmberHandlebarsLoader.loadTemplates([
+
+	     	'about', 'adresses','application', 'contact', 'home', 'send_message',
+
+	     	]);
+	  </script>
+	  
+	</body>
+</html>

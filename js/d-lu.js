@@ -1,0 +1,1 @@
+D_lu = Ember.Application.create();
